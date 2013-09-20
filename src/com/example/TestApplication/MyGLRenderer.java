@@ -23,7 +23,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer
     private final Handler myHandler = new Handler();
 
     // Lighting (NEW)
-    boolean lightingEnabled = true;   // Is lighting on? (NEW)
+    boolean lightingEnabled = false;   // Is lighting on? (NEW)
     private float[] lightAmbient = {1f, 1f, 1f, 1.0f};
     private float[] lightDiffuse = {1.0f, 1.0f, 1.0f, 1.0f};
     private float[] light_specular = {1.0f, 1.0f, 1.0f, 1.0f};

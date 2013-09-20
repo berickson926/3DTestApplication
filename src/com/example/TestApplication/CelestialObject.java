@@ -7,6 +7,8 @@ import javax.microedition.khronos.opengles.GL11;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CelestialObject
 {
@@ -34,7 +36,9 @@ public class CelestialObject
     };
 
     private FloatBuffer sphereBuffer;
+    private FloatBuffer sphereIndexBuffer;
     private float[] sphereVertices;
+    private float[] sphereIndecies;
 
 
     public CelestialObject(int red, int green, int blue, int planetRadius, int orbitRadius, float year, float day)
@@ -79,6 +83,12 @@ public class CelestialObject
         sphereBuffer = spherebb.asFloatBuffer();
         sphereBuffer.put(sphereVertices);
         sphereBuffer.position(0);
+
+        ByteBuffer sphereIndexbb = ByteBuffer.allocateDirect(sphereIndecies.length * 4);
+        sphereIndexbb.order(ByteOrder.nativeOrder());
+        sphereIndexBuffer = sphereIndexbb.asFloatBuffer();
+        sphereIndexBuffer.put(sphereIndecies);
+        sphereIndexBuffer.position(0);
     }
 
     public static float[] MakeCircle2d(int vertexCount, float radius, float center_x, float center_y)
@@ -103,7 +113,7 @@ public class CelestialObject
         return buffer;
     }
 
-    public static float[] MakeSphere3d(int slices, int verticesPerSlice, float radius)
+    public float[] MakeSphere3d(int slices, int verticesPerSlice, float radius)
     {
         //create buffer for vertex data
         // x, y, z per vertex
@@ -136,10 +146,17 @@ public class CelestialObject
             }
         }
 
-//        for(int i=0; i < vertices.length; i+=3)
-//        {
-//            Log.v("CelestialObject", vertices[i]+" "+vertices[i+1]+" "+vertices[i+2]);
-//        }
+        sphereIndecies = new float[slices * verticesPerSlice * 2];
+        index = 0;
+        for(int j=0; j<slices; j++)
+        {
+            for(int i=0; i<verticesPerSlice; i++)
+            {
+                sphereIndecies[index++] = ((float) ((j * slices) + (i % slices)));
+                sphereIndecies[index++] = ((float) (((j + 1) * slices) + (i % slices)));
+            }
+        }
+
         return vertices;
     }
 
@@ -177,6 +194,7 @@ public class CelestialObject
         gl.glRotatef(360 * hourOfDay / day, 0, 1, 0); //Rotate planet on its axis
             gl.glVertexPointer(3, GL10.GL_FLOAT, 0, sphereBuffer);
             gl.glDrawArrays(GL10.GL_TRIANGLE_FAN, 0, sphereVertices.length / 3);
+            //gl.glDrawElements(GL10.GL_TRIANGLE_STRIP, sphereIndexBuffer.capacity(), GL10.GL_FLOAT, sphereIndexBuffer);
         gl.glPopMatrix();
 
         gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
