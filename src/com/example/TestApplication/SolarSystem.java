@@ -36,7 +36,9 @@ public class SolarSystem
     void render(GL10 gl)
     {
         gl.glPushMatrix();
+        gl.glDisable(GL10.GL_LIGHTING);
         sun.render(gl);
+        gl.glEnable(GL10.GL_LIGHTING);
         gl.glPopMatrix();
 
         gl.glPushMatrix();

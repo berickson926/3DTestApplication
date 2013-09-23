@@ -1,14 +1,9 @@
 package com.example.TestApplication;
 
-import android.util.Log;
-
 import javax.microedition.khronos.opengles.GL10;
-import javax.microedition.khronos.opengles.GL11;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
-import java.util.ArrayList;
-import java.util.List;
 
 public class CelestialObject
 {
@@ -35,13 +30,17 @@ public class CelestialObject
             0.0f, -500.0f,0.0f
     };
 
-    private FloatBuffer sphereBuffer;
-    private FloatBuffer sphereIndexBuffer;
-    private float[] sphereVertices;
-    private float[] sphereIndecies;
+    private FloatBuffer sphereVertexBuffer;
+    private ByteBuffer sphereIndexBuffer;
+    private float[] vertexPositionData;
+    private byte[] indexData;
+
+    //For sphere lighting
+    private FloatBuffer normalBuffer;
+    private float[] normalData;
 
 
-    public CelestialObject(int red, int green, int blue, int planetRadius, int orbitRadius, float year, float day)
+    public CelestialObject(final int red, final int green, final int blue, final int planetRadius, final int orbitRadius, final float year, final float day)
     {
         color = new int[3];
         color[0] = red;
@@ -64,8 +63,8 @@ public class CelestialObject
         ByteBuffer axisbb = ByteBuffer.allocateDirect(axisVertices.length * 4);
         axisbb.order(ByteOrder.nativeOrder());//use native byte order
         axisBuffer = axisbb.asFloatBuffer();  //Convert from byte to float
-        axisBuffer.put(axisVertices);      //Copy data into buffer
-        axisBuffer.position(0);            //rewind?
+        axisBuffer.put(axisVertices);         //Copy data into buffer
+        axisBuffer.position(0);               //rewind?
 
 
         //Setup orbital path vertex array buffer
@@ -77,17 +76,22 @@ public class CelestialObject
         orbitalPathBuffer.position(0);
 
         //Setup sphere vertices
-        sphereVertices = MakeSphere3d(50, 100, planetRadius);
-        ByteBuffer spherebb = ByteBuffer.allocateDirect(sphereVertices.length * 4);
-        spherebb.order(ByteOrder.nativeOrder());
-        sphereBuffer = spherebb.asFloatBuffer();
-        sphereBuffer.put(sphereVertices);
-        sphereBuffer.position(0);
 
-        ByteBuffer sphereIndexbb = ByteBuffer.allocateDirect(sphereIndecies.length * 4);
-        sphereIndexbb.order(ByteOrder.nativeOrder());
-        sphereIndexBuffer = sphereIndexbb.asFloatBuffer();
-        sphereIndexBuffer.put(sphereIndecies);
+        MakeSphere3d(planetRadius);
+        ByteBuffer sphereVertexBB = ByteBuffer.allocateDirect(vertexPositionData.length * 4);
+        sphereVertexBB.order(ByteOrder.nativeOrder());
+        sphereVertexBuffer = sphereVertexBB.asFloatBuffer();
+        sphereVertexBuffer.put(vertexPositionData);
+        sphereVertexBuffer.position(0);
+
+        ByteBuffer byteBuf = ByteBuffer.allocateDirect(normalData.length * 4);
+        byteBuf.order(ByteOrder.nativeOrder());
+        normalBuffer = byteBuf.asFloatBuffer();
+        normalBuffer.put(normalData);
+        normalBuffer.position(0);
+
+        sphereIndexBuffer = ByteBuffer.allocateDirect(indexData.length);
+        sphereIndexBuffer.put(indexData);
         sphereIndexBuffer.position(0);
     }
 
@@ -113,51 +117,63 @@ public class CelestialObject
         return buffer;
     }
 
-    public float[] MakeSphere3d(int slices, int verticesPerSlice, float radius)
+    public void MakeSphere3d(final float radius)
     {
-        //create buffer for vertex data
-        // x, y, z per vertex
-        // verticesPerSlice = total no. of points per circle drawn
-        // slices = total no. of circles drawn
-        //Example: 20 slices, 100pts per slice, 3 values for x,y,z
-        float vertices[] = new float[slices * verticesPerSlice * 3];
-        Log.d("CelestialObject", "Sphere vertices array length: "+vertices.length);
+        final int latitudeBands = 100;
+        final int longitudeBands = 100;
+
+        vertexPositionData = new float[3 * latitudeBands * longitudeBands];
+        normalData = new float[3 * latitudeBands * longitudeBands];
+        int normalIndex = 0;
+        int vertexIndex = 0;
+
+        for(int latNumber = 0; latNumber < latitudeBands; latNumber++)
+        {
+            final float theta = (float) (latNumber * Math.PI) / latitudeBands;
+            final float sinTheta = (float) Math.sin(theta);
+            final float cosTheta = (float) Math.cos(theta);
+
+            for(int longNumber = 0; longNumber < longitudeBands; longNumber++)
+            {
+                final float phi = (float) (longNumber * 2 * Math.PI / longitudeBands);
+                final float sinPhi = (float) Math.sin(phi);
+                final float cosPhi = (float) Math.cos(phi);
+
+                final float x = cosPhi * sinTheta;
+                final float y = cosTheta;
+                final float z = sinPhi * sinTheta;
+
+                normalData[normalIndex++] = x;
+                normalData[normalIndex++] = y;
+                normalData[normalIndex++] = z;
+
+                vertexPositionData[vertexIndex++] = radius * x;
+                vertexPositionData[vertexIndex++] = radius * y;
+                vertexPositionData[vertexIndex++] = radius * z;
+            }
+        }
+
+        //stitch vertices together, a list of vertex data that contains sequences of six values,
+        //  each representing a square expressed as a pair of triangles
+        indexData = new byte[latitudeBands * longitudeBands * 6];
         int index = 0;
 
-        for(int j = 0; j < slices; j++)
+        for(int latNumber = 0; latNumber < latitudeBands; latNumber++)
         {
-            Log.d("CelestialObject", "Slice: "+j);
-            float rotationAngle = j / (float) (slices -1);
-            float theta = (float) (rotationAngle * Math.PI);
-            Log.d("CelestialObject", "Theta: "+theta);
-
-            for (int i = 0; i < verticesPerSlice; i++)
+            for(int longNumber = 0; longNumber < longitudeBands; longNumber++)
             {
-                float circleAngle = i / (float) (verticesPerSlice -1);
-                float phi = (float) (circleAngle * 2*Math.PI);
+                final float first = (latNumber * (longitudeBands +1)) + longNumber;
+                final float second = first + longitudeBands + 1;
 
-                // x value
-                vertices[index++] = (float) (radius * Math.sin(phi) * Math.cos(theta)); // x=r *cos(theta)
-                // y value
-                vertices[index++] = (float) (radius * Math.sin(phi) * Math.sin(theta));// y= r*sin(theta)
+                indexData[index++] = (byte) first;
+                indexData[index++] = (byte) second;
+                indexData[index++] = (byte) (first +1);
 
-                // z value
-                vertices[index++] = (float) (radius * Math.cos(phi));
+                indexData[index++] = (byte) second;
+                indexData[index++] = (byte) (second + 1);
+                indexData[index++] = (byte) (first + 1);
             }
         }
-
-        sphereIndecies = new float[slices * verticesPerSlice * 2];
-        index = 0;
-        for(int j=0; j<slices; j++)
-        {
-            for(int i=0; i<verticesPerSlice; i++)
-            {
-                sphereIndecies[index++] = ((float) ((j * slices) + (i % slices)));
-                sphereIndecies[index++] = ((float) (((j + 1) * slices) + (i % slices)));
-            }
-        }
-
-        return vertices;
     }
 
     public void render(GL10 gl)
@@ -169,11 +185,13 @@ public class CelestialObject
 
         //Render axis of rotation & orbital path
         //Enable the vertex-array and define the buffers
-        gl.glFrontFace(GL10.GL_CCW);    // Front face in counter-clockwise orientation
+        gl.glFrontFace(GL10.GL_CW);    // Front face in clockwise orientation
         gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
+        gl.glEnableClientState(GL10.GL_NORMAL_ARRAY);
 
         //Draw the primitives via index-array
         gl.glPushMatrix();
+            gl.glDisable(GL10.GL_LIGHTING);
             gl.glColor4f(1f, 1f, 1f, 1f);
             gl.glVertexPointer(3, GL10.GL_FLOAT, 0, axisBuffer);
             gl.glDrawArrays(GL10.GL_LINE_STRIP, 0, axisVertices.length / 3);  //Draw object's rotation axis
@@ -181,6 +199,7 @@ public class CelestialObject
             gl.glRotatef(90, 1, 0, 0);
             gl.glVertexPointer(2, GL10.GL_FLOAT, 0, orbitalPathBuffer);
             gl.glDrawArrays(GL10.GL_LINE_LOOP, 0, orbitalPathVertices.length/2);//Draw object's orbital path
+            gl.glEnable(GL10.GL_LIGHTING);
         gl.glPopMatrix();
 
         //Render planet
@@ -192,12 +211,16 @@ public class CelestialObject
 
         gl.glPushMatrix();
         gl.glRotatef(360 * hourOfDay / day, 0, 1, 0); //Rotate planet on its axis
-            gl.glVertexPointer(3, GL10.GL_FLOAT, 0, sphereBuffer);
-            gl.glDrawArrays(GL10.GL_TRIANGLE_FAN, 0, sphereVertices.length / 3);
-            //gl.glDrawElements(GL10.GL_TRIANGLE_STRIP, sphereIndexBuffer.capacity(), GL10.GL_FLOAT, sphereIndexBuffer);
+            gl.glEnable(GL10.GL_CULL_FACE);
+            gl.glCullFace(GL10.GL_BACK);
+            gl.glVertexPointer(3, GL10.GL_FLOAT, 0, sphereVertexBuffer);
+            gl.glNormalPointer(GL10.GL_FLOAT, 0, normalBuffer);
+            gl.glDrawArrays(GL10.GL_TRIANGLE_FAN, 0, vertexPositionData.length / 3);
         gl.glPopMatrix();
 
         gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
+        gl.glDisableClientState(GL10.GL_NORMAL_ARRAY);
+        gl.glDisable(GL10.GL_CULL_FACE);
 
     }//end render
 
