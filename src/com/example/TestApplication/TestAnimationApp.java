@@ -13,10 +13,8 @@ public class TestAnimationApp extends Activity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        this.setContentView(R.layout.main);
+        setContentView(R.layout.test_application_main);
 
-        //glView = new MyGLSurfaceView(this);
-        //glView = new GLSurfaceView(this);
         glView = (GLSurfaceView) findViewById(R.id.surfaceView);
         glView.setRenderer(new MyGLRenderer(this, (TextView)findViewById(R.id.fps_tv)));//Using a custom OpenGL renderer
         //glView.setRenderer(new MyGLRenderer(this));
