@@ -16,11 +16,9 @@ public class TestAnimationApp extends Activity
         setContentView(R.layout.test_application_main);
 
         glView = (GLSurfaceView) findViewById(R.id.surfaceView);
-        glView.setRenderer(new MyGLRenderer(this, (TextView)findViewById(R.id.fps_tv)));//Using a custom OpenGL renderer
-        //glView.setRenderer(new MyGLRenderer(this));
+        //glView.setRenderer(new MyGLRenderer(this, (TextView)findViewById(R.id.fps_tv)));//Using a custom OpenGL renderer
+        glView.setRenderer(new MyGLRenderer(this));
         glView.setRenderMode(GLSurfaceView.RENDERMODE_CONTINUOUSLY);
-        //this.setContentView(glView);
-
     }
 
     @Override

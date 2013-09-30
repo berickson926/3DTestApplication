@@ -27,44 +27,57 @@
     <list default="true" id="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" name="Default" comment="" />
     <ignored path="3DTestApplication.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/TestAnimationApp.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380179369178" ignored="false" />
-    <file path="/MyGLRenderer.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1379892768633" ignored="false" />
+    <file path="/TestAnimationApp.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380524922602" ignored="false" />
+    <file path="/MyGLRenderer.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380523938171" ignored="false" />
     <file path="/CelestialObject.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1379892391975" ignored="false" />
     <file path="/SolarSystem.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1379891858039" ignored="false" />
-    <file path="/Dummy.txt" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380179965940" ignored="false" />
+    <file path="/Dummy.txt" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380309424085" ignored="false" />
     <file path="$PROJECT_DIR$/../AppLoaderDemo/src/com/example/AppLoaderDemo/MainActivity.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380171892596" ignored="false" />
     <file path="$PROJECT_DIR$/../AppLoaderDemo/AndroidManifest.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1379470815423" ignored="false" />
     <file path="$PROJECT_DIR$/../AppLoaderDemo/src/com/example/AppLoaderDemo/Applications.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1379470815423" ignored="false" />
     <file path="$PROJECT_DIR$/../AppLoaderDemo/res/layout/main.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1379470919235" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380182891210" ignored="false" />
-    <file path="/MyGLSurfaceView.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1379559431238" ignored="false" />
-    <file path="/main.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380178459459" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380308263084" ignored="false" />
+    <file path="/MyGLSurfaceView.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380519187385" ignored="false" />
+    <file path="/main.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380307568363" ignored="false" />
     <file path="/Sphere.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1379624871193" ignored="false" />
     <file path="$PROJECT_DIR$/../AppLoaderDemo/res/layout/WebLayout.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1379631663058" ignored="false" />
-    <file path="/MainActivity.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380189196499" ignored="false" />
+    <file path="/MainActivity.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380524506060" ignored="false" />
     <file path="/a.dummy" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380155449656" ignored="false" />
     <file path="$PROJECT_DIR$/../../OpenGL/Tutorial9/gen/com/nea/nehe/lesson09/R.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1379885713311" ignored="false" />
     <file path="$PROJECT_DIR$/../../OpenGL/Tutorial9/src/com/nea/nehe/lesson09/Lesson09.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1379885725605" ignored="false" />
-    <file path="/fragment.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1379887155416" ignored="false" />
+    <file path="/fragment.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380404348283" ignored="false" />
     <file path="$PROJECT_DIR$/../Player/Android/src/com/enplug/player/MainActivity.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380128797640" ignored="false" />
     <file path="$PROJECT_DIR$/../Player/Main/src/com/enplug/player/util/timer/Timer.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380128797640" ignored="false" />
     <file path="$PROJECT_DIR$/../Player/Android/assets/default.properties" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380128797640" ignored="false" />
     <file path="$PROJECT_DIR$/../AppLoaderDemo/src/com/example/AppLoaderDemo/SampleFragment.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380155228550" ignored="false" />
-    <file path="/SampleFragment.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380179984444" ignored="false" />
+    <file path="/SampleFragment.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380429869287" ignored="false" />
     <file path="$PROJECT_DIR$/../AppLoaderDemo/res/layout/applauncher_main.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380155246858" ignored="false" />
     <file path="/applauncher_main.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380155244704" ignored="false" />
-    <file path="/TestAnimationFragment.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380190193763" ignored="false" />
-    <file path="$PROJECT_DIR$/../ClassLoaderDemo/AndroidManifest.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380185033388" ignored="false" />
-    <file path="$PROJECT_DIR$/../ClassLoaderDemo/res/layout/main.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380180188267" ignored="false" />
+    <file path="/TestAnimationFragment.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380309682841" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClassLoaderDemo/AndroidManifest.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380525316851" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClassLoaderDemo/res/layout/main.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380440951967" ignored="false" />
     <file path="$PROJECT_DIR$/../ClassLoaderDemo/res/values/strings.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380170068377" ignored="false" />
     <file path="$PROJECT_DIR$/../ClassLoaderDemo/build.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380170068377" ignored="false" />
-    <file path="$PROJECT_DIR$/../ClassLoaderDemo/src/com/example/ClassLoaderDemo/MainActivity.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380189196499" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClassLoaderDemo/src/com/example/ClassLoaderDemo/MainActivity.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380524552690" ignored="false" />
     <file path="$PROJECT_DIR$/../ClassLoaderDemo/src/com/example/ClassLoaderDemo/ChildAppFragment.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380171369696" ignored="false" />
-    <file path="$PROJECT_DIR$/../ClassLoaderDemo/src/com/example/ClassLoaderDemo/SampleFragment.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380179986094" ignored="false" />
-    <file path="$PROJECT_DIR$/../ClassLoaderDemo/res/layout/samplefragment_layout.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380182978106" ignored="false" />
-    <file path="$PROJECT_DIR$/../ClassLoaderDemo/gen/com/example/ClassLoaderDemo/R.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380185036161" ignored="false" />
-    <file path="$PROJECT_DIR$/../ClassLoaderDemo/gen/com/example/ClassLoaderDemo/Manifest.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380185036161" ignored="false" />
-    <file path="$PROJECT_DIR$/../ClassLoaderDemo/gen/com/example/ClassLoaderDemo/BuildConfig.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380185039119" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClassLoaderDemo/src/com/example/ClassLoaderDemo/SampleFragment.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380429870727" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClassLoaderDemo/res/layout/samplefragment_layout.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380309748716" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClassLoaderDemo/gen/com/example/ClassLoaderDemo/R.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380525317460" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClassLoaderDemo/gen/com/example/ClassLoaderDemo/Manifest.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380525317460" ignored="false" />
+    <file path="$PROJECT_DIR$/../ClassLoaderDemo/gen/com/example/ClassLoaderDemo/BuildConfig.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380525319448" ignored="false" />
+    <file path="/test_application_main.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380307963374" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGLSampleLibrary/res/layout/main.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380274411205" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGLSampleLibrary/build.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380274411205" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGLSampleLibrary/AndroidManifest.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380274411205" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGLSampleLibrary/src/com/example/OpenGLSampleLibrary/SolarSystem.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380274431282" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGLSampleLibrary/src/com/example/OpenGLSampleLibrary/MyGLSurfaceView.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380274431282" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGLSampleLibrary/src/com/example/OpenGLSampleLibrary/MyGLRenderer.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380274431282" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGLSampleLibrary/src/com/example/OpenGLSampleLibrary/CelestialObject.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380274431282" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGLSampleLibrary/src/com/example/OpenGLSampleLibrary/TestAnimationFragment.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380274431282" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGLSampleLibrary/src/com/example/OpenGLSampleLibrary/TestAnimationApp.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380274431282" ignored="false" />
+    <file path="/samplefragment_layout.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380404636203" ignored="false" />
+    <file path="/test_application_fragment_layout.xml" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380310239011" ignored="false" />
+    <file path="/ExternalFragment.java" changelist="10d3fb2b-c703-48c6-9a03-3bbf227a92f5" time="1380518515220" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +92,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -115,7 +129,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -125,39 +139,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestAnimationApp.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TestAnimationApp.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/TestAnimationApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="46" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0">
+            <state line="19" column="8" selection-start="616" selection-end="616" vertical-scroll-proportion="0.44444445">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAnimationFragment.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestAnimationFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/TestAnimationFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="33" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.72574383">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="33" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
+            <state line="40" column="5" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_application_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/test_application_main.xml">
+      <file leaf-file-name="test_application_fragment_layout.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/test_application_fragment_layout.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="353" selection-end="353" vertical-scroll-proportion="-2.72">
+            <state line="6" column="47" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,30 +169,54 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="samplefragment_layout.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/samplefragment_layout.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="78" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExternalFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/ExternalFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="92" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MyGLRenderer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/MyGLRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="33" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
+            <state line="55" column="6" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CelestialObject.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/CelestialObject.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="43" selection-start="7298" selection-end="7298" vertical-scroll-proportion="0.0">
+            <state line="12" column="18" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SolarSystem.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/SolarSystem.java">
+      <file leaf-file-name="test_application_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/test_application_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="9" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.0">
+            <state line="10" column="52" selection-start="426" selection-end="426" vertical-scroll-proportion="-3.4">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -203,22 +230,27 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/TestApplication/MyGLSurfaceView.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/TestApplication/Sphere.java" />
         <option value="$PROJECT_DIR$/src/com/example/TestApplication/SolarSystem.java" />
         <option value="$PROJECT_DIR$/src/com/example/TestApplication/CelestialObject.java" />
-        <option value="$PROJECT_DIR$/src/com/example/TestApplication/MyGLRenderer.java" />
-        <option value="$PROJECT_DIR$/src/com/example/TestApplication/TestAnimationApp.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/test_application_main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/TestApplication/TestAnimationFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/test_application_fragment_layout.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/TestApplication/SampleFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/samplefragment_layout.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/TestApplication/ExternalFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/example/TestApplication/MyGLSurfaceView.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/TestApplication/TestAnimationApp.java" />
+        <option value="$PROJECT_DIR$/src/com/example/TestApplication/MyGLRenderer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -247,6 +279,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -296,10 +330,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -319,42 +349,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3DTestApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3DTestApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3DTestApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3DTestApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,16 +358,23 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="EnplugEmulator" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Player" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.0.10:5555" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.TestApplication" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\enplug\Documents\GitHub\3DTestApplication\res\layout" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.3DTestApplication">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -535,16 +538,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.889755" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15581644" sideWeight="0.889755" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.8663697" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -553,17 +555,18 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15033408" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17662753" sideWeight="0.889755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11024499" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17593583" sideWeight="0.7104677" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2895323" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.7093541" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15581644" sideWeight="0.7093541" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -632,67 +635,36 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/SolarSystem.java">
+    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-18/android.jar!/android/app/Fragment.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="54" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+        <state line="109" column="29" selection-start="4698" selection-end="4698" vertical-scroll-proportion="0.3324709" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-18/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.8229167" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/example/TestApplication/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/example/TestApplication/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="175" selection-end="175" vertical-scroll-proportion="0.1391162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/TestAnimationApp.java">
+    <entry file="file://$PROJECT_DIR$/gen/com/example/TestApplication/Manifest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="26" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/MyGLRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="17" selection-start="2414" selection-end="2414" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/CelestialObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="29" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/SolarSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="54" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/MyGLSurfaceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="59" selection-start="515" selection-end="552" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-18/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="29" selection-start="4192" selection-end="4192" vertical-scroll-proportion="0.3328823" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/MyGLRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="33" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/CelestialObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="43" selection-start="7298" selection-end="7298" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="19" selection-start="182" selection-end="182" vertical-scroll-proportion="0.1391162" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/SolarSystem.java">
@@ -702,23 +674,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/example/TestApplication/R.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/test_application_fragment_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="175" selection-end="175" vertical-scroll-proportion="0.09747706">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/TestAnimationApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="46" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/test_application_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="353" selection-end="353" vertical-scroll-proportion="-2.72">
+        <state line="6" column="47" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -726,26 +684,58 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Android/android-sdk/platforms/android-18/android.jar!/android/app/Fragment.class">
+    <entry file="file://$PROJECT_DIR$/res/layout/samplefragment_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="29" selection-start="4698" selection-end="4698" vertical-scroll-proportion="0.3324709">
+        <state line="5" column="78" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/ExternalFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
+        <state line="16" column="92" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/TestAnimationFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="33" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.72574383">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="40" column="5" selection-start="1417" selection-end="1417" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/test_application_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="52" selection-start="426" selection-end="426" vertical-scroll-proportion="-3.4">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="18" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/MyGLRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="6" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/TestApplication/TestAnimationApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="8" selection-start="616" selection-end="616" vertical-scroll-proportion="0.44444445">
+          <folding />
         </state>
       </provider>
     </entry>

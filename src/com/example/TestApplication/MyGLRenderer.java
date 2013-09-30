@@ -22,11 +22,11 @@ public class MyGLRenderer implements GLSurfaceView.Renderer
     private SolarSystem solarSystem;
     private CelestialObject testPlanet;
 
-    //Used for FPS calculations
-    private long mLastTime;
-    private int mFPS;
-    private TextView fpsTextView;
-    private final Handler myHandler = new Handler();
+//    //Used for FPS calculations
+//    private long mLastTime;
+//    private int mFPS;
+//    private TextView fpsTextView;
+//    private final Handler myHandler = new Handler();
 
     // Lighting
     boolean lightingEnabled = true;   // Is lighting on? (NEW)
@@ -53,14 +53,14 @@ public class MyGLRenderer implements GLSurfaceView.Renderer
     private FloatBuffer shinessBuffer;
     private FloatBuffer ambientBuffer;
 
-    public MyGLRenderer(Context context, TextView fpsTextView)
-    //public MyGLRenderer(Context context)
+    //public MyGLRenderer(Context context, TextView fpsTextView)
+    public MyGLRenderer(Context context)
     {
         this.context = context;
 
-        mLastTime = System.currentTimeMillis();
-        mFPS = 0;
-        this.fpsTextView = fpsTextView;
+//        mLastTime = System.currentTimeMillis();
+//        mFPS = 0;
+//        this.fpsTextView = fpsTextView;
 
         //light buffers
         ByteBuffer byteBuf = ByteBuffer.allocateDirect(lightAmbient.length * 4);
@@ -192,25 +192,25 @@ public class MyGLRenderer implements GLSurfaceView.Renderer
         solarSystem.update();
         solarSystem.render(gl);
 
-        //FPS measurement
-
-        mFPS++;
-        long currentTime = System.currentTimeMillis();
-        if(currentTime >= mLastTime + 1000)
-        {
-
-            myHandler.post(new Runnable()
-            {
-                @Override
-                public void run()
-                {
-                    fpsTextView.setText("FPS: "+mFPS);
-                }
-            });
-
-            Log.d("MyGLRenderer", "FPS: "+mFPS);
-            mFPS =0;
-            mLastTime = currentTime;
-        }
+//        //FPS measurement
+//
+//        mFPS++;
+//        long currentTime = System.currentTimeMillis();
+//        if(currentTime >= mLastTime + 1000)
+//        {
+//
+//            myHandler.post(new Runnable()
+//            {
+//                @Override
+//                public void run()
+//                {
+//                    fpsTextView.setText("FPS: "+mFPS);
+//                }
+//            });
+//
+//            Log.d("MyGLRenderer", "FPS: "+mFPS);
+//            mFPS =0;
+//            mLastTime = currentTime;
+//        }
     }
 }

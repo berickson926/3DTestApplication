@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <FrameLayout
+        android:id="@+id/testApplication_fl"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
-    <android.opengl.GLSurfaceView
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+     <android.opengl.GLSurfaceView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:id="@+id/surfaceView"/>
@@ -11,5 +13,5 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="FPS:"
-            android:id="@+id/fps_tv"/>
+            android:id="@+id/fps_tv" android:layout_gravity="top"/>
 </FrameLayout>
